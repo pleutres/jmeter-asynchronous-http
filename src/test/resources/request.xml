@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:wsdl="http://www.pleutre.org/mysample"
+               xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+    <soap:Header/>
+    <soap:Body>
+        <wsdl:MySampleResponse>
+            <wsdl:FunctionalId>1234</wsdl:FunctionalId>
+            <wsdl:Status>VALID</wsdl:Status>
+        </wsdl:MySampleResponse>
+    </soap:Body>
+</soap:Envelope>
