@@ -51,7 +51,7 @@ public class HttpServer extends NanoHTTPD {
 	 * @throws IOException if file can not be read/created
 	 */
 	private String readReponseFile() throws URISyntaxException, IOException {
-		URI uri = HttpServer.class.getResource("response.xml").toURI();
+		URI uri = HttpServer.class.getResource("/response.xml").toURI();
 		LOG.info("uri = " + uri);
 		Map<String, String> env = new HashMap<>(); 
 		env.put("create", "true");
